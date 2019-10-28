@@ -69,6 +69,10 @@ $easy_route.methods_collection:
 History Log
 =============
 
+- 1.0.1 -- 2019-10-28
+
+    - fix LightBaseControllerHubHandler->doHandle not handling directory traversal correctly with $controllerDir argument
+    
 - 1.0.0 -- 2019-10-28
 
     - initial commit

@@ -86,6 +86,7 @@ abstract class LightBaseControllerHubHandler implements LightControllerHubHandle
             $method = array_shift($p);
         }
 
+        $controllerDir = realpath($controllerDir);
         $controllerFile = $controllerDir . "/" . $controllerRelativeClass . '.php';
 
 
