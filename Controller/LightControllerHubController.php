@@ -23,7 +23,6 @@ class LightControllerHubController extends LightController
      */
     public function render(): HttpResponseInterface
     {
-
         $httpRequest = $this->getHttpRequest();
         $get = $httpRequest->getGet();
         if (
@@ -39,6 +38,7 @@ class LightControllerHubController extends LightController
              */
             $service = $this->getContainer()->get("controller_hub");
             $handler = $service->getControllerHubHandler($plugin);
+
 
             return $handler->handle($controller, $httpRequest);
 

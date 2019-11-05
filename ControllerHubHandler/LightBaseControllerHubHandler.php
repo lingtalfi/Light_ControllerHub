@@ -89,20 +89,19 @@ abstract class LightBaseControllerHubHandler implements LightControllerHubHandle
         $controllerDir = realpath($controllerDir);
         $controllerFile = $controllerDir . "/" . $controllerRelativeClass . '.php';
 
-
         if (true === FileSystemTool::isDirectoryTraversalSafe($controllerFile, $controllerDir)) {
 
 
             $class = LightClassHelper::getLightClassNameByFile($controllerFile);
             $controller = $class . '->' . $method;
 
-
             /**
              * @var $lightInstance LightLightInstanceService
              */
             $lightInstance = $this->container->get("light_instance");
             $light = $lightInstance->getLight();
-            return ControllerHelper::executeController($controller, $light);
+            $r = ControllerHelper::executeController($controller, $light);
+            return $r;
         } else {
             throw new LightKitAdminException("Wrong controllerIdentifier $controllerIdentifier.");
         }
