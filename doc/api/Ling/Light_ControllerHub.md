@@ -1,6 +1,6 @@
 Ling/Light_ControllerHub
 ================
-2019-10-28 --> 2019-11-05
+2019-10-28 --> 2019-12-16
 
 
 
@@ -31,6 +31,5 @@ Dependencies
 - [Light](https://github.com/lingtalfi/Light)
 - [Bat](https://github.com/lingtalfi/Bat)
 - [Light_Kit_Admin](https://github.com/lingtalfi/Light_Kit_Admin)
-- [Light_LightInstance](https://github.com/lingtalfi/Light_LightInstance)
 
 
