@@ -62,6 +62,10 @@ controller_hub:
 History Log
 =============
 
+- 1.2.8 -- 2021-02-23
+
+    - Update dependencies
+
 - 1.2.7 -- 2021-02-23
 
   - cleaning assets/map dir 
