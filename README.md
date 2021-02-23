@@ -62,11 +62,11 @@ controller_hub:
 History Log
 =============
 
-- 1.2.9 -- 2021-02-23
+- 1.2.10 -- 2021-02-23
 
     - Update dependencies (pushed by SubscribersUtil)
 
-- 1.2.8 -- 2021-02-23
+- 1.2.9 -- 2021-02-23
 
     - Update dependencies (pushed by SubscribersUtil)
 
