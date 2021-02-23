@@ -1,6 +1,6 @@
 Light_ControllerHub
 ===========
-2019-10-28 -> 2020-12-01
+2019-10-28 -> 2021-02-23
 
 
 
@@ -54,16 +54,6 @@ controller_hub:
         setContainer:
             container: @container()
 
-
-# --------------------------------------
-# hooks
-# --------------------------------------
-$easy_route.methods_collection:
-    -
-        method: registerBundleFile
-        args:
-            file: config/data/Light_ControllerHub/Light_EasyRoute/lch_routes.byml
-
 ```
 
 
@@ -72,9 +62,13 @@ $easy_route.methods_collection:
 History Log
 =============
 
+- 1.2.5 -- 2021-02-23
+
+  - switch to Light_EasyRoute open registration system
+
 - 1.2.4 -- 2020-12-08
 
-    - Fix lpi-deps not using natsort.
+    - Fix lpi-deps not using natsort
 
 - 1.2.3 -- 2020-12-04
 
