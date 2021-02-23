@@ -62,6 +62,10 @@ controller_hub:
 History Log
 =============
 
+- 1.2.6 -- 2021-02-23
+
+  - fix plugin's route declaration file not named correctly 
+  
 - 1.2.5 -- 2021-02-23
 
   - switch to Light_EasyRoute open registration system
