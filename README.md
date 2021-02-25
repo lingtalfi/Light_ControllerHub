@@ -1,6 +1,6 @@
 Light_ControllerHub
 ===========
-2019-10-28 -> 2021-02-23
+2019-10-28 -> 2021-02-25
 
 
 
@@ -61,6 +61,10 @@ controller_hub:
 
 History Log
 =============
+
+- 1.2.11 -- 2021-02-25
+
+    - fix assets/map dir removed
 
 - 1.2.10 -- 2021-02-23
 
