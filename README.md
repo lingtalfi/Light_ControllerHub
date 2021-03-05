@@ -1,6 +1,6 @@
 Light_ControllerHub
 ===========
-2019-10-28 -> 2021-02-25
+2019-10-28 -> 2021-03-05
 
 
 
@@ -14,6 +14,11 @@ This is part of the [universe framework](https://github.com/karayabin/universe-s
 
 Install
 ==========
+Using the [planet installer](https://github.com/lingtalfi/Light_PlanetInstaller) via [light-cli](https://github.com/lingtalfi/Light_Cli)
+```bash
+lt install Ling.Light_ControllerHub
+```
+
 Using the [uni](https://github.com/lingtalfi/universe-naive-importer) command.
 ```bash
 uni import Ling/Light_ControllerHub
@@ -61,6 +66,10 @@ controller_hub:
 
 History Log
 =============
+
+- 1.2.12 -- 2021-03-05
+
+    - update README.md, add install alternative
 
 - 1.2.11 -- 2021-02-25
 
