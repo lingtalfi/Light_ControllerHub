@@ -4,7 +4,7 @@
 
 The LightControllerHubPlanetInstaller class
 ================
-2019-10-28 --> 2021-03-15
+2019-10-28 --> 2021-04-01
 
 
 

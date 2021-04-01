@@ -1,6 +1,6 @@
 Light_ControllerHub
 ===========
-2019-10-28 -> 2021-03-15
+2019-10-28 -> 2021-04-01
 
 
 
@@ -67,6 +67,10 @@ controller_hub:
 History Log
 =============
 
+- 1.3.0 -- 2021-04-01
+
+    - add execute notation
+  
 - 1.2.14 -- 2021-03-15
 
     - update planet to adapt Ling.Light:0.70.0
