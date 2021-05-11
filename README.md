@@ -67,6 +67,10 @@ controller_hub:
 History Log
 =============
 
+- 1.3.1 -- 2021-05-11
+
+    - Update dependencies to Ling.Light_EasyRoute (pushed by SubscribersUtil)
+
 - 1.3.0 -- 2021-04-01
 
     - add execute notation

@@ -6,8 +6,6 @@ namespace Ling\Light_ControllerHub\Controller;
 
 use Ling\Light\Controller\LightController;
 use Ling\Light\Helper\ControllerHelper;
-use Ling\Light\Helper\LightClassHelper;
-use Ling\Light\Helper\LightHelper;
 use Ling\Light\Http\HttpResponseInterface;
 use Ling\Light_ControllerHub\Exception\LightControllerHubException;
 use Ling\Light_ControllerHub\Service\LightControllerHubService;
@@ -57,9 +55,8 @@ class LightControllerHubController extends LightController
                     $controller = $class . '->' . $method;
                     $light = $this->getLight();
                     return ControllerHelper::executeController($controller, $light);
-                }
-                else{
-                $this->error("This class is not a LightControllerInterface instance ($class). Aborting.");
+                } else {
+                    $this->error("This class is not a LightControllerInterface instance ($class). Aborting.");
                 }
             } else {
                 $this->error("Invalid execute string: $execute. Aborting.");
