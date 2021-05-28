@@ -4,7 +4,7 @@
 
 The LightControllerHubException class
 ================
-2019-10-28 --> 2021-05-11
+2019-10-28 --> 2021-05-28
 
 
 
