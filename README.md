@@ -1,6 +1,6 @@
 Light_ControllerHub
 ===========
-2019-10-28 -> 2021-05-28
+2019-10-28 -> 2021-05-31
 
 
 
@@ -67,6 +67,10 @@ controller_hub:
 History Log
 =============
 
+- 1.3.3 -- 2021-05-31
+
+    - checkpoint commit
+  
 - 1.3.2 -- 2021-05-28
 
     - update api to work with Light_PlanetInstaller 2.0.0 (not yet out)
