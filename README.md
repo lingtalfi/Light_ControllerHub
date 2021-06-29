@@ -1,6 +1,6 @@
 Light_ControllerHub
 ===========
-2019-10-28 -> 2021-06-03
+2019-10-28 -> 2021-06-29
 
 
 
@@ -67,6 +67,14 @@ controller_hub:
 History Log
 =============
 
+- 1.3.7 -- 2021-06-29
+
+    - update easy route namespace (add galaxy prefix) 
+  
+- 1.3.6 -- 2021-06-25
+
+    - updated routes, add galaxy prefix 
+  
 - 1.3.5 -- 2021-06-03
 
     - adapt api to work with Light_PlanetInstaller:2.0.4
