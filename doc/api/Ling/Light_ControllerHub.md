@@ -1,6 +1,6 @@
 Ling/Light_ControllerHub
 ================
-2019-10-28 --> 2021-06-29
+2019-10-28 --> 2021-07-08
 
 
 
@@ -38,7 +38,6 @@ Dependencies
 - [CliTools](https://github.com/lingtalfi/CliTools)
 - [Light](https://github.com/lingtalfi/Light)
 - [Light_EasyRoute](https://github.com/lingtalfi/Light_EasyRoute)
-- [Light_Kit_Admin](https://github.com/lingtalfi/Light_Kit_Admin)
 - [Light_PlanetInstaller](https://github.com/lingtalfi/Light_PlanetInstaller)
 - [UniverseTools](https://github.com/lingtalfi/UniverseTools)
 
