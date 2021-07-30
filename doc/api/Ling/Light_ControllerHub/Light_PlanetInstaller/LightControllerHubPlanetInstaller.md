@@ -4,7 +4,7 @@
 
 The LightControllerHubPlanetInstaller class
 ================
-2019-10-28 --> 2021-07-08
+2019-10-28 --> 2021-07-30
 
 
 
@@ -63,4 +63,4 @@ See the source code of [Ling\Light_ControllerHub\Light_PlanetInstaller\LightCont
 
 SeeAlso
 ==============
-Previous class: [LightControllerHubException](https://github.com/lingtalfi/Light_ControllerHub/blob/master/doc/api/Ling/Light_ControllerHub/Exception/LightControllerHubException.md)<br>Next class: [LightControllerHubService](https://github.com/lingtalfi/Light_ControllerHub/blob/master/doc/api/Ling/Light_ControllerHub/Service/LightControllerHubService.md)<br>
+Previous class: [LightControllerHubHelper](https://github.com/lingtalfi/Light_ControllerHub/blob/master/doc/api/Ling/Light_ControllerHub/Helper/LightControllerHubHelper.md)<br>Next class: [LightControllerHubService](https://github.com/lingtalfi/Light_ControllerHub/blob/master/doc/api/Ling/Light_ControllerHub/Service/LightControllerHubService.md)<br>

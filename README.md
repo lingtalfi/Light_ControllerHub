@@ -1,6 +1,6 @@
 Light_ControllerHub
 ===========
-2019-10-28 -> 2021-07-08
+2019-10-28 -> 2021-07-30
 
 A [Light](https://github.com/lingtalfi/Light) service to execute multiple controllers from one route.
 
@@ -62,6 +62,10 @@ controller_hub:
 
 History Log
 =============
+
+- 1.3.9 -- 2021-07-30
+
+    - add LightControllerHubHelper class
 
 - 1.3.8 -- 2021-07-08
 
